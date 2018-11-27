@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0-beta01'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 
@@ -18,11 +18,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.0.0-alpha3'
-    implementation 'androidx.cardview:cardview:1.0.0-alpha3'
-    implementation 'com.google.android.material:material:1.0.0-alpha3'
-    implementation 'androidx.legacy:legacy-support-v13:1.0.0-alpha3'
-    implementation 'com.google.android.gms:play-services-wearable:15.0.1'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha01'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'com.google.android.gms:play-services-wearable:16.0.1'
 
 
     implementation project(':Shared')
@@ -40,7 +40,7 @@ List<String> dirs = [
 android {
     compileSdkVersion 28
 
-    buildToolsVersion "27.0.3"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         minSdkVersion 18
